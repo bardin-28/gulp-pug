@@ -1,0 +1,15 @@
+//---------------------------------------------------------------------------
+  >>> Inner Pages Template :
+  ---------------------------------------------------------------------------
+doctype html
+html(lang="ru" dir="ltr")
+    head
+        include ../parts/head
+    body
+        include ../layout/header
+        main
+            block content
+        include ../layout/footer
+
+        script(src="scripts/libraries.min.js")
+        script(src="scripts/script.js")

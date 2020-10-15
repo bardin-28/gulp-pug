@@ -1,0 +1,40 @@
+/* -------------------------------------------------------------------------- 
+ * >>> TABLE OF UTILS : 
+ * -------------------------------------------------------------------------- */
+
+/* Libraries */
+/* -------------------------------------------------------------------------- */
+
+@import '../libraries/bootstrap/bootstrap.min';
+@import '../libraries/swiper/swiper-bundle.min';
+@import '../libraries/wow/animate.min';
+
+/* Utils */
+/* -------------------------------------------------------------------------- */
+
+@import 'utils/_variables';
+@import 'utils/_functions';
+@import 'utils/_mixins';
+@import 'utils/_media-queries';
+@import 'utils/_fonts';
+@import 'utils/_reset';
+
+/* Components && UI Styles */
+/* -------------------------------------------------------------------------- */
+
+body{
+  font-family: $firstFont;
+}
+
+@import 'UI/UI-Kit';
+@import 'components/header';
+@import 'components/site-menu';
+@import 'components/footer';
+
+/* Pages Styles */
+/* -------------------------------------------------------------------------- */
+
+@import 'pages/home';
+
+
+
