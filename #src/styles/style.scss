@@ -28,8 +28,9 @@ body{
 
 @import 'UI/UI-Kit';
 @import 'components/header';
-@import 'components/site-menu';
 @import 'components/footer';
+@import 'components/site-menu';
+
 
 /* Pages Styles */
 /* -------------------------------------------------------------------------- */
@@ -37,4 +38,7 @@ body{
 @import 'pages/home';
 
 
+/* Animation */
+/* -------------------------------------------------------------------------- */
 
+@import 'UI/Animation';

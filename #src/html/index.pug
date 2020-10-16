@@ -3,6 +3,10 @@
   ---------------------------------------------------------------------------
 extends template/main
 
+block variables
+    - var pageTitle = 'mainPage';
+    - var padeDescription = pageTitle + 'description';
+
 block content
     .container
         h1 index page

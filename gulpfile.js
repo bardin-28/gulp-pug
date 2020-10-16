@@ -91,8 +91,11 @@ function css() {
 }
 
 function js() {
-    return src(path.src.js)
-        // .pipe(concat('script.js'))
+    return src([ // Добавление самописных файлов скриптов
+        '#src/scripts/home.js',
+        '#src/scripts/about.js'
+        ])
+        .pipe(concat('scripts.js'))
         .pipe(babel({
             presets: ['@babel/env']
         }))
