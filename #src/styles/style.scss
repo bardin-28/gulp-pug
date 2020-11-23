@@ -12,31 +12,25 @@
 /* Utils */
 /* -------------------------------------------------------------------------- */
 
+@import 'utils/_reset';
 @import 'utils/_variables';
 @import 'utils/_functions';
 @import 'utils/_mixins';
 @import 'utils/_media-queries';
 @import 'utils/_fonts';
-@import 'utils/_reset';
 
 /* Components && UI Styles */
 /* -------------------------------------------------------------------------- */
-
-body{
-  font-family: $firstFont;
-}
 
 @import 'UI/UI-Kit';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/site-menu';
 
-
 /* Pages Styles */
 /* -------------------------------------------------------------------------- */
 
-@import 'pages/home';
-
+@import 'pages/index';
 
 /* Animation */
 /* -------------------------------------------------------------------------- */
